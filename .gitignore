@@ -478,6 +478,6 @@ $RECYCLE.BIN/
 
 E-Commerce/appsettings.json
 
-E-Commerce/store.db
-.idea
-E-Commerce/DS_Store
+!E-Commerce/store.db
+.idea/*
+!E-Commerce/DS_Store
