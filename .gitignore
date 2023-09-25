@@ -478,11 +478,8 @@ $RECYCLE.BIN/
 
 E-Commerce/appsettings.json
 
-# Bỏ qua tất cả các tệp trong thư mục .idea
-.idea/
-
 # Bỏ qua tệp store.db
 E-Commerce/store.db
 
 # Bỏ qua tất cả mọi thứ trong thư mục .idea
-.idea/*
+.idea
