@@ -477,3 +477,7 @@ $RECYCLE.BIN/
 *.lnk
 
 E-Commerce/appsettings.json
+
+E-Commerce/store.db
+.idea
+E-Commerce/DS_Store
