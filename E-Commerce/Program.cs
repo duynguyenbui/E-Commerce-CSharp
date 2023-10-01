@@ -2,6 +2,7 @@ using System.Text;
 using E_Commerce.Data;
 using E_Commerce.Entities;
 using E_Commerce.Middleware;
+using E_Commerce.RequestHelpers;
 using E_Commerce.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -19,6 +20,7 @@ builder.Services.AddDbContext<ECommerceContext>(options =>
 });
 
 builder.Services.AddControllers();
+builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
@@ -66,6 +68,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddAuthorization();
 builder.Services.AddScoped<TokenService>();
 builder.Services.AddScoped<PaymentService>();
+builder.Services.AddScoped<ImageService>();
 
 var app = builder.Build();
 

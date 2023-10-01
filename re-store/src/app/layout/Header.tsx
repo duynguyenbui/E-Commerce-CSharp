@@ -14,6 +14,7 @@ import SignedInMenu from './SignedInMenu';
 import CategoryIcon from '@mui/icons-material/Category';
 import InfoIcon from '@mui/icons-material/Info';
 import ContactsIcon from '@mui/icons-material/Contacts';
+import InventoryIcon from '@mui/icons-material/Inventory';
 
 const midLinks = [
   {
@@ -87,6 +88,12 @@ export const Header = () => {
               {link.title.toUpperCase()}
             </ListItem>
           ))}
+          {user && user.roles?.includes('Admin') && (
+            <ListItem component={NavLink} to={'/inventory'} sx={navStyles}>
+              <InventoryIcon sx={{ mr: 2 }} />
+              INVENTORY
+            </ListItem>
+          )}
         </List>
         <Box display="flex" alignItems="center">
           <IconButton

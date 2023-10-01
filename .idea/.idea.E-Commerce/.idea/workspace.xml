@@ -9,95 +9,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce959cb8-1f66-46c4-84cb-0bb14a649851" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/E-Commerce/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/.idea/.idea.E-Commerce.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/.idea/.idea.E-Commerce.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Controllers/AccountController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Controllers/BaseApiController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Controllers/BasketController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Controllers/BuggyController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Controllers/FallbackController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Controllers/OrdersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Controllers/PaymentsController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/BasketDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/BasketItemDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/CreateOrderDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/LoginDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/OrderDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/OrderItemDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/RegisterDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/UserDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Data/Migrations/20230930091625_PostgresInitial.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Data/Migrations/20230930091625_PostgresInitial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/Basket.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/BasketItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/OrderAggregate/Order.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/OrderAggregate/OrderItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/OrderAggregate/OrderStatus.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/OrderAggregate/ProductItemOrdered.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/OrderAggregate/ShippingAddress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/OrderAggregate/UserAddress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/Role.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Extensions/BasketExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Extensions/HttpExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Extensions/OrderExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Extensions/ProductExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Middleware/ExceptionMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/RequestHelpers/MetaData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/RequestHelpers/PagedList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/RequestHelpers/PaginationParams.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/RequestHelpers/ProductParams.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Services/PaymentService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/Services/TokenService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/assets/ajax-loader-e7b44c86.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/assets/index-34f46304.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/assets/index-df6adeec.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/assets/slick-12459f22.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/hero1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/hero2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/hero3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/placeholder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/boot-ang1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/boot-ang2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/boot-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/boot-core2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/boot-redis1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/glove-code1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/glove-code2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/glove-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/glove-react2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/hat-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/hat-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/hat-react2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/sb-ang1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/sb-ang2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/sb-core1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/sb-core2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/sb-react1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/images/products/sb-ts1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/E-Commerce/wwwroot/vite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/Bearer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/CreateProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/DTOs/UpdateProductDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/Data/Migrations/20231001022228_PublicIdAdded.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/Data/Migrations/20231001022228_PublicIdAdded.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/RequestHelpers/MappingProfiles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/Services/ImageService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/boot-ang1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/boot-ang2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/boot-core1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/boot-core2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/boot-redis1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/glove-code1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/glove-code2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/glove-react1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/glove-react2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/hat-core1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/hat-react1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/hat-react2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/images/hero1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/images/hero2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/images/hero3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/images/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/sb-ang1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/sb-ang2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/sb-core1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/sb-core2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/sb-react1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/E-Commerce/sb-ts1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-store/src/app/components/AppDropzone.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-store/src/app/components/AppSelectList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-store/src/app/hooks/useProducts.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-store/src/app/pages/admin/Inventory.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-store/src/app/pages/admin/ProductForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.E-Commerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.E-Commerce/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Commerce/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce/Data/DbInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce/Data/DbInitializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce/Data/ECommerceContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce/Data/ECommerceContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce/Data/Migrations/20230925175901_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce/Data/Migrations/20230925175901_InitialCreate.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Commerce/Data/Migrations/ECommerceContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce/Data/Migrations/ECommerceContextModelSnapshot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Commerce/E-Commerce.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce/E-Commerce.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/E-Commerce/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce/Entities/Product.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Commerce/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce/WeatherForecast.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/E-Commerce/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/E-Commerce/appsettings.Development.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E-Commerce/store.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/bun.lockb" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/bun.lockb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/src/app/api/agent.ts" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/src/app/api/agent.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/src/app/components/AppPagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/src/app/components/AppPagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/src/app/components/AppTextInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/src/app/components/AppTextInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/src/app/layout/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/src/app/layout/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/src/app/pages/catalog/Catalog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/src/app/pages/catalog/Catalog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/src/app/routers/routes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/src/app/routers/routes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/src/app/store/catalogSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/src/app/store/catalogSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-store/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/re-store/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +68,13 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" show_ignored="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
@@ -122,7 +92,7 @@
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="Toolset" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -135,32 +105,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-Build Messages&quot;: &quot;Build messages&quot;,
-    &quot;Notification.DoNotAsk-Build Messages&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.46556473&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-Build Messages": "Build messages",
+    "Notification.DoNotAsk-Build Messages": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.46556473",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/buiduynguyen/Documents/Jetbrains_C_Sharp/E-Commerce/re-store/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/buiduynguyen/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/buiduynguyen/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
-      &quot;/Users/buiduynguyen/.local/share/Symbols/src&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql",
+      "sqlite"
+    ],
+    "rider.external.source.directories": [
+      "/Users/buiduynguyen/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
+      "/Users/buiduynguyen/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
+      "/Users/buiduynguyen/.local/share/Symbols/src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RiderProblemsViewState">
     <option name="proportion" value="0.6452174" />
   </component>
@@ -208,6 +184,10 @@
       <workItem from="1696064520555" duration="21000" />
       <workItem from="1696064564893" duration="70000" />
       <workItem from="1696064820885" duration="773000" />
+      <workItem from="1696086029135" duration="1025000" />
+      <workItem from="1696121449469" duration="7460000" />
+      <workItem from="1696134058009" duration="494000" />
+      <workItem from="1696134556222" duration="5219000" />
     </task>
     <servers />
   </component>
